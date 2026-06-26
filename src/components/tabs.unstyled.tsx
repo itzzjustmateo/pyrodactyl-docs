@@ -9,7 +9,6 @@ import {
   useRef,
   useState,
 } from 'react';
-// @ts-expect-error – useEffectEvent exists in React 19.2+ runtime but not in types yet
 import { useEffectEvent } from 'react';
 import * as Primitive from '@radix-ui/react-tabs';
 import { mergeRefs } from '../lib/merge-refs';
